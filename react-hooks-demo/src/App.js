@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import RefCom from './RefCom';
 import CallbackCom from './CallbackCom';
+import MemoCom from './MemoCom';
 
 const App = (props) => {
 
@@ -54,6 +55,11 @@ const App = (props) => {
       <div>
         callback 相关demo：
         <CallbackCom></CallbackCom>
+      </div>
+      <br/>
+      <div>
+        memo 相关demo:
+        <MemoCom></MemoCom>
       </div>
     </div>
   )
